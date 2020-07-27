@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 
 import sys
 import os
@@ -12,6 +12,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def default():
+    separator = request.args.get("separator")
+
     job_name = HumanisedJobname("capital-cities.yaml")
+
+    if separator:
+        job_name.separator = separator
 
     return str(job_name)
