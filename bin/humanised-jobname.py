@@ -6,7 +6,7 @@ import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "../lib"))
 
-from humanised_jobname import HumanisedJobname
+from humanised_jobname import HumanisedJobname  # noqa: E402
 
 if __name__ == "__main__":
 
