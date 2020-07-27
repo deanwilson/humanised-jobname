@@ -25,3 +25,7 @@ from [Dockerhub](https://hub.docker.com/repository/docker/deanwilson/humanised-j
     docker build -t deanwilson/humanised-jobnames .
 
     docker run -p 5555:5000 deanwilson/humanised-jobnames
+
+The Alpine image, built from the main [Dockerfile](/Dockerfile), is
+107MB while the full Python image is 971MB.
+
