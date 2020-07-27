@@ -3,142 +3,526 @@ words:
     description: Adjectives for the left hand side
     version: 1
   words:
+  - ablaze
+  - abrasive
+  - abrupt
   - abundant
+  - accidental
+  - achievable
+  - adorable
+  - advantageous
+  - afraid
+  - aggressive
+  - agoraphobic
+  - agreeable
+  - all
+  - alluring
+  - ambidextrous
+  - ambitious
+  - amiable
+  - amoral
+  - ample
+  - amused
+  - angelic
+  - angry
+  - animated
+  - annoyed
+  - annual
+  - aquatic
+  - aromatic
+  - ashamed
+  - aspiring
+  - astronomical
+  - attractive
+  - average
+  - awkward
   - azure
-  - big-boned
+  - bad
+  - balanced
+  - bawdy
+  - beautiful
+  - bewildered
+  - biographical
   - bitter
+  - bizarre
   - black
   - bland
   - blaring
+  - blobby
+  - blonde
+  - bloody
   - blue
+  - blushing
   - boiling
+  - boring
+  - bountiful
+  - brainy
+  - brave
+  - breathless
   - breezy
+  - brief
   - bright
+  - broad
+  - broken
   - brown
   - bumpy
+  - busy
+  - callous
+  - calm
+  - calming
+  - capable
+  - careful
+  - careless
+  - cautious
+  - charming
+  - cheerful
   - chilly
   - chubby
+  - circular
+  - clean
+  - clear
+  - clever
+  - cloudy
+  - clumsy
   - cold
+  - colorful
+  - combative
+  - comfortable
+  - common
+  - complete
+  - concerned
+  - confident
+  - confused
+  - considerable
   - cool
+  - cooperative
+  - copious
+  - countless
+  - courageous
+  - cowardly
+  - crabby
+  - cracked
+  - crazy
+  - credible
+  - creepy
   - crimson
+  - crooked
+  - cross
+  - cruel
+  - crushed
   - cuddly
+  - cumbersome
+  - curious
+  - curly
+  - curved
+  - cute
+  - cylindrical
+  - daily
   - damp
+  - dangerous
   - dark
+  - dead
   - deafening
+  - debonair
+  - deep
+  - defeated
+  - defiant
   - delicious
+  - delightful
+  - depressed
+  - determined
+  - different
+  - diligent
   - dirty
+  - disgusted
+  - dismissive
+  - distinct
+  - distorted
+  - disturbed
+  - doubtful
   - drab
   - dry
   - dull
   - dusty
+  - each
+  - eager
+  - early
+  - elated
+  - elegant
+  - elementary
+  - embarrassed
+  - enchanting
   - encrusted
+  - energetic
+  - enough
+  - enraged
+  - enthusiastic
+  - envious
+  - erratic
+  - eternal
+  - every
+  - evil
+  - excited
+  - exhausted
+  - exuberant
   - faint
+  - fair
+  - faithful
+  - famous
+  - fancy
+  - fantastic
+  - fast
   - fat
+  - fearless
+  - fertile
+  - few
+  - fierce
   - filthy
+  - fine
+  - first
   - flaky
+  - flat
+  - fleet
   - fluffy
+  - foolish
+  - fragile
+  - frank
+  - frantic
   - freezing
+  - friendly
+  - frightened
   - fruity
+  - full
+  - functional
+  - funny
+  - furious
+  - future
+  - futuristic
   - fuzzy
+  - gabby
+  - generous
+  - gentle
   - giant
+  - gifted
   - gigantic
   - gingery
+  - glamorous
+  - gleaming
+  - glib
+  - globular
+  - glorious
+  - glossy
   - gold
+  - good
+  - graceful
+  - grateful
   - gray
   - greasy
   - great
   - green
+  - grieving
+  - grotesque
+  - grumpy
+  - gusty
+  - gutless
+  - handsome
+  - happy
   - hard
+  - healthy
+  - heavy
+  - heinous
+  - helpful
+  - helpless
+  - hesitant
+  - high
+  - hilarious
   - hissing
+  - historical
   - hoarse
+  - hollow
+  - homely
+  - honest
   - hot
   - huge
+  - hundreds
+  - hungry
+  - hurt
   - hushed
   - husky
+  - hysterical
   - icy
+  - illegible
   - immense
+  - immoral
+  - impassioned
+  - imperfect
+  - impossible
+  - indignant
   - indigo
+  - innocent
+  - inquisitive
+  - insane
+  - interior
+  - internal
+  - inventive
+  - irate
+  - irregular
+  - itchy
+  - jaunty
+  - jazzy
+  - jealous
+  - jolly
+  - juicy
   - jumbo
+  - juvenile
+  - kind
   - large
+  - late
   - lavender
+  - lazy
   - light
+  - limited
   - little
+  - lively
+  - logical
+  - lonely
   - long
   - loose
   - loud
+  - lovely
+  - low
+  - lucky
+  - macho
+  - mad
   - magenta
+  - magnificent
+  - main
   - majestic
   - mammoth
+  - manic
+  - manly
+  - many
   - massive
+  - measly
   - melodic
   - melted
+  - mere
   - miniature
+  - minor
   - minty
   - moaning
+  - modern
   - muffled
   - multicolored
+  - multiple
+  - murky
+  - mushy
   - mustard
   - mute
+  - myriad
+  - mysterious
+  - narrow
+  - naughty
+  - nervous
   - noisy
+  - numerous
+  - nutritious
+  - obedient
+  - obnoxious
+  - obsolete
+  - odd
+  - old
+  - one
+  - open
+  - optimal
   - orange
+  - organic
+  - outrageous
+  - outstanding
+  - oval
   - painful
+  - paltry
+  - panicky
+  - perfect
+  - perky
+  - persuasive
   - petite
   - pickled
   - pink
   - pinkish
+  - plain
+  - pleasant
+  - plentiful
+  - poised
+  - poor
+  - powerful
+  - premium
+  - pretty
   - prickly
+  - profuse
+  - proud
+  - puffy
   - puny
   - purple
   - purring
+  - puzzled
+  - quaint
+  - quick
   - quiet
+  - quirky
+  - quizzical
+  - rainy
+  - rapid
   - raspy
+  - real
   - red
+  - redundant
+  - regular
+  - relieved
+  - remarkable
+  - repulsive
   - resonant
+  - restless
+  - rich
+  - righteous
+  - ritzy
+  - romantic
   - rosy
+  - rotund
   - rough
+  - round
+  - ruddy
+  - rundown
+  - rustic
+  - ruthless
+  - sad
   - salty
+  - sassy
   - scarlet
+  - scary
   - scrawny
   - screeching
+  - secretive
+  - sedate
+  - selfish
+  - several
   - shaggy
   - shaky
   - sharp
+  - shiny
   - short
   - shrill
+  - shy
   - silent
   - silky
+  - silly
   - silver
+  - simple
+  - sizable
+  - skinny
+  - sleepy
   - slick
   - slimy
   - slippery
+  - sloppy
+  - slow
   - small
+  - smiling
   - smooth
   - soft
-  - soft
   - solid
+  - somber
+  - some
   - sour
+  - sparkling
+  - sparse
+  - speed
+  - speedy
   - spicy
+  - splendid
+  - spotless
+  - square
   - squeaking
   - squealing
+  - steep
   - sticky
+  - stingy
+  - straight
+  - strange
+  - stupid
+  - substantial
+  - successful
+  - super
+  - swanky
   - sweet
+  - swift
+  - tacky
   - tall
+  - tame
+  - tangible
   - tangy
   - tasty
+  - tawdry
+  - tedious
+  - teeming
   - teeny
+  - ten
   - tender
+  - tense
+  - terrible
+  - terrific
+  - testy
+  - thankful
   - thin
+  - thoughtful
+  - thoughtless
   - thundering
   - tight
   - tiny
+  - tired
+  - triangular
+  - tricky
+  - troubled
   - turquoise
+  - ugly
+  - unattractive
+  - unbecoming
+  - uncovered
   - uneven
+  - uninterested
+  - unsightly
+  - unusual
+  - upset
+  - vague
   - vast
+  - verdant
+  - very
   - violet
+  - vivacious
   - voiceless
+  - wacky
+  - waiting
+  - wandering
   - warm
+  - watery
+  - weak
+  - weary
+  - weird
   - wet
   - whispering
   - white
+  - wholesale
+  - wicked
+  - wide
+  - wild
+  - wiry
+  - womanly
+  - wooden
+  - worried
+  - wrong
+  - wry
   - yellow
+  - young
   - yummy
+  - zany
+  - zealous
