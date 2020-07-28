@@ -1,6 +1,26 @@
 # Humanised Jobnames
 
-A small python library and command line wrapper to create humanised jobnames
+A python library and tools to create memorable, human friendly, job names.
+
+## Introduction
+
+Which pair of identifiers are easier to remember?
+
+  * d9a911d0-d0a6-11ea-b16d-38baf832cdcd and e7930804-d0a6-11ea-9ed1-00000000000c
+
+Or
+
+  * wry-warsaw and puzzled-lobamba
+
+This project provides a simple library to generate small, human-
+friendly, not guaranteed to be unique, job names that will let you
+replace the first example with the second one to make remembering which
+task you were debugging a little easier. I currently have an internal
+instance of this running inside a docker container and use the different
+data sources to ensure my scheduled jobs have more friendly,
+recognisable at a glance, names.
+
+This project was inspired by Dockers random container naming.
 
 ## Example - command line
 
@@ -27,8 +47,14 @@ from [Dockerhub](https://hub.docker.com/repository/docker/deanwilson/humanised-j
 
     docker build -t deanwilson/humanised-jobnames .
 
+    # expose the web app on port 5555
     docker run -p 5555:5000 deanwilson/humanised-jobnames
 
 The Alpine image, built from the main [Dockerfile](/Dockerfile), is
-107MB while the full Python image is 971MB.
+preferred as it's 107MB while the [full Python image](/Dockerfile-full-python)
+is 971MB.
 
+
+### Author
+
+ * [Dean Wilson](https://www.unixdaemon.net)
