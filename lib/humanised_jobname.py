@@ -2,6 +2,7 @@ import random
 import yaml
 
 from pathlib import Path
+from sys import exit
 
 
 class HumanisedJobname:
@@ -16,7 +17,12 @@ class HumanisedJobname:
     def _load_yaml(self, filename):
         words = []
 
-        # TODO: filename existence checks
+        filename = Path(filename)
+
+        if not filename.exists():
+            print(f"Unable to find [{filename}]. Please check the data directory")
+            exit(1)
+
         with open(filename) as f:
             # TODO: Exception handling
             yaml_content = yaml.load(f.read(), Loader=yaml.SafeLoader)
