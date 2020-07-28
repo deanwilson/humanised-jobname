@@ -23,13 +23,23 @@ if __name__ == "__main__":
         "-d",
         "--data-file",
         dest="data_file",
-        default="capital-cities.yaml",
+        default="data/capital-cities.yaml",
         help="Specify a data source to use for the right hand phrase",
     )
 
+    parser.add_argument(
+        "-a",
+        "--adjectives",
+        "--adjectives-data-file",
+        dest="adjectives",
+        default="data/adjectives.yaml",
+        help="Specify a data source to use for adjectives",
+    )
+
+
     args = parser.parse_args()
 
-    job_name = HumanisedJobname(args.data_file)
+    job_name = HumanisedJobname(args.data_file, args.adjectives)
 
     if args.separator:
         job_name.separator = args.separator
