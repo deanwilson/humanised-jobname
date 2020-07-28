@@ -13,10 +13,18 @@ app = Flask(__name__)
 @app.route("/")
 def default():
     separator = request.args.get("separator")
+    adjectives = request.args.get("adjectives")
+    right_hand = request.args.get("right")
 
-    job_name = HumanisedJobname("capital-cities.yaml")
+    job_name = HumanisedJobname()
 
     if separator:
         job_name.separator = separator
+
+    if adjectives:
+        job_name.adjective_file(adjectives)
+
+    if right_hand:
+        job_name.right_hand_file(right_hand)
 
     return str(job_name)
