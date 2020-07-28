@@ -17,6 +17,9 @@ A small python library and command line wrapper to create humanised jobnames
     curl http://127.0.0.1:5000/
     lively-taipei
 
+    # a full test overriding all the defaults
+    curl 'http://127.0.0.1:5000/?separator=^^^&adjectives=data/capital-cities.yaml&right=data/adjectives.yaml'
+
 ## Docker container
 
 This container can be built locally with this repository or pulled
