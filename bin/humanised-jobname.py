@@ -19,9 +19,17 @@ if __name__ == "__main__":
         help="Specify a separator between the adjective and the right hand phrase",
     )
 
+    parser.add_argument(
+        "-d",
+        "--data-file",
+        dest="data_file",
+        default="capital-cities.yaml",
+        help="Specify a data source to use for the right hand phrase",
+    )
+
     args = parser.parse_args()
 
-    job_name = HumanisedJobname("capital-cities.yaml")
+    job_name = HumanisedJobname(args.data_file)
 
     if args.separator:
         job_name.separator = args.separator
