@@ -32,14 +32,16 @@ if __name__ == "__main__":
         "--adjectives",
         "--adjectives-data-file",
         dest="adjectives",
-        default="data/adjectives.yaml",
         help="Specify a data source to use for adjectives",
     )
 
 
     args = parser.parse_args()
 
-    job_name = HumanisedJobname(args.data_file, args.adjectives)
+    job_name = HumanisedJobname(args.data_file)
+
+    if args.adjectives:
+        job_name.set_adjective_file(args.adjectives)
 
     if args.separator:
         job_name.separator = args.separator
