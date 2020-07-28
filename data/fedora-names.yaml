@@ -1,0 +1,27 @@
+---
+words:
+    meta:
+        description: A list of Fedora release names
+        version: 1
+    words:
+        - beefy_miracle
+        - bordeaux
+        - cambridge
+        - constantine
+        - goddard
+        - heidelberg
+        - heisenbug
+        - laughlin
+        - leonidas
+        - lovelock
+        - moonshine
+        - schrodingers_cat
+        - spherical_cow
+        - stentz
+        - sulphur
+        - tettnang
+        - twenty_one
+        - verne
+        - werewolf
+        - yarrow
+        - zod
