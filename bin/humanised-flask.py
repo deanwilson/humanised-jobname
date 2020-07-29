@@ -1,4 +1,5 @@
 from flask import Flask, request
+from prometheus_flask_exporter import PrometheusMetrics
 
 import sys
 import os
@@ -8,6 +9,12 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "../lib"))
 from humanised_jobname import HumanisedJobname  # noqa: E402
 
 app = Flask(__name__)
+metrics = PrometheusMetrics(app)
+
+# static information as metric
+metrics.info(
+    "humanised_jobnames", "humanised_flask", version="0.0.3"
+)  # TODO: Dynamic version
 
 
 @app.route("/")
@@ -28,3 +35,12 @@ def default():
         job_name.right_hand_file(right_hand)
 
     return str(job_name)
+
+
+metrics.register_default(
+    metrics.counter(
+        "by_path_counter",
+        "Request count by request paths",
+        labels={"path": lambda: request.path},
+    )
+)
