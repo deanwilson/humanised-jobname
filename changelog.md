@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2020-07-28
+### Added
+- Support overriding the datasources. PR#10
+- add new data source - Fedora release names - PR#11
+- added an introduction to the readme. - PR#12
+
+
 ## [0.0.1] - 2020-07-27
 ### Added
 - added `Dockerfile` to allow the application to be built
