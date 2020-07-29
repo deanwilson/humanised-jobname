@@ -6,7 +6,12 @@ from sys import exit
 
 
 class HumanisedJobname:
-    def __init__(self, right_hand="data/capital-cities.yaml", adjective_file="data/adjectives.yaml", separator="-"):
+    def __init__(
+        self,
+        right_hand="data/capital-cities.yaml",
+        adjective_file="data/adjectives.yaml",
+        separator="-",
+    ):
         self.field_separator = separator
 
         self.right_hand_word = self._random_word(right_hand)
@@ -29,20 +34,16 @@ class HumanisedJobname:
         return words
 
     def _random_word(self, filename):
-        return(random.choice(self._load_yaml(filename)))
-
+        return random.choice(self._load_yaml(filename))
 
     def set_separator(self, new_separator):
         self.field_separator = new_separator
 
-
     def right_hand_file(self, right_hand):
         self.right_hand_word = self._random_word(right_hand)
 
-
     def adjective_file(self, adjective):
         self.adjective = self._random_word(adjective)
-
 
     def __str__(self):
         return f"{self.adjective}{self.field_separator}{self.right_hand_word}"

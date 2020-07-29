@@ -5,6 +5,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "../lib"))
 
 from humanised_jobname import HumanisedJobname  # noqa: E402
 
+
 def test_simple_object(datadir):
     """ check the default seperate is in the object string representation """
     job_name = HumanisedJobname()
@@ -32,4 +33,3 @@ def test_constructor_custom_files(datadir):
     job_name = HumanisedJobname(adjective_file=adjectives, right_hand=right_hand)
 
     assert "perfect-beefy_miracle" == str(job_name)
-
