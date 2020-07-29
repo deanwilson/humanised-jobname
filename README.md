@@ -40,6 +40,16 @@ This project was inspired by Dockers random container naming.
     # a full test overriding all the defaults
     curl 'http://127.0.0.1:5000/?separator=^^^&adjectives=data/capital-cities.yaml&right=data/adjectives.yaml'
 
+    # view prometheus compatible metrics
+    curl http://127.0.0.1:5000/metrics
+
+    humanised_jobnames{version="0.0.3"} 1.0
+    flask_exporter_info{version="0.15.4"} 1.0
+    flask_http_request_total{method="GET",status="200"} 8.0
+    flask_http_request_total{method="GET",status="500"} 4.0
+    ... snip ...
+
+
 ## Docker container
 
 This container can be built locally with this repository or pulled
