@@ -19,7 +19,7 @@ def default():
     job_name = HumanisedJobname()
 
     if separator:
-        job_name.separator(separator)
+        job_name.set_separator(separator)
 
     if adjectives:
         job_name.adjective_file(adjectives)
