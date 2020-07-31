@@ -32,7 +32,7 @@ This project was inspired by Dockers random container naming.
 
 ## Example - flask
 
-    FLASK_APP=bin/humanised-flask.py flask run
+    FLASK_APP=humanisedflask.py flask run
 
     curl http://127.0.0.1:5000/
     lively-taipei
