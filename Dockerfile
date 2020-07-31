@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 
-ENV FLASK_APP bin/humanised-flask.py
+ENV FLASK_APP humanisedflask.py
 
 COPY . /app
 WORKDIR /app
