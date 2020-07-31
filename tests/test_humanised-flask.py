@@ -19,3 +19,22 @@ def test_default_page(client):
 
     rv = client.get('/')
     assert "-" in str(rv.data)
+
+def test_default_page(client):
+    """Test the default page contains our default separator."""
+
+
+def test_setting_separator(client):
+    rv = client.get('/?separator=AAA')
+    assert "AAA" in str(rv.data)
+
+    rv = client.get('/?separator=BBB')
+    assert "BBB" in str(rv.data)
+
+def test_setting_files(client, shared_datadir):
+    adjectives = (shared_datadir / "adjectives.yaml")
+    right_hand = (shared_datadir / "fedora-names.yaml")
+
+    rv = client.get(f"/?separator=^^^&adjectives={adjectives}&right={right_hand}")
+
+    assert "perfect^^^beefy_miracle" in str(rv.data)

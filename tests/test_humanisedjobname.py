@@ -26,9 +26,9 @@ def test_custom_separator_method(datadir):
     assert "%%%" in str(job_name)
 
 
-def test_constructor_custom_files(datadir):
-    adjectives = (datadir / "adjectives.yaml")
-    right_hand = (datadir / "fedora-names.yaml")
+def test_constructor_custom_files(shared_datadir):
+    adjectives = (shared_datadir / "adjectives.yaml")
+    right_hand = (shared_datadir / "fedora-names.yaml")
 
     job_name = HumanisedJobname(adjective_file=adjectives, right_hand=right_hand)
 
