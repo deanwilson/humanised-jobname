@@ -20,8 +20,11 @@ def test_default_page(client):
     rv = client.get('/')
     assert "-" in str(rv.data)
 
-def test_default_page(client):
-    """Test the default page contains our default separator."""
+def test_metrics_page(client):
+    """Test the /metrics page contains a default metric."""
+
+    rv = client.get('/metrics')
+    assert "flask_exporter_info{" in str(rv.data)
 
 
 def test_setting_separator(client):

@@ -49,6 +49,21 @@ This project was inspired by Dockers random container naming.
     flask_http_request_total{method="GET",status="500"} 4.0
     ... snip ...
 
+    # view the available data sources
+    curl 'http://127.0.0.1:5000/source_names?format=text'
+    ... snip ...
+    adjectives.yaml
+    capital-cities.yaml
+    fedora-names.yaml
+    ... snip ...
+
+    # view details about the available data sources
+    curl 'http://127.0.0.1:5000/sources?format=text'
+    ... snip ...
+    adjectives.yaml: Adjectives for the left hand side - 523 words
+    capital-cities.yaml: A list of capital cities. Unicode removed. - 239 words
+    fedora-names.yaml: A list of Fedora release names - 21 words
+    ... snip ...
 
 ## Docker container
 

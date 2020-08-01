@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] 2020-08-01
+### Added
+- Add dependabot to track dependency updates PR#20
+- Flask test - add a basic flask check to ensure the separator is present PR#22
+- Flask test - test all the app url params work on the default page PR#23
+- Flask - add sources route to show details about available data files PR#24
+- Flask - add source_names route to show available data files PR#24
+
 ## [0.0.4] 2020-07-29
 ### Fixed
  - Fixed bad method call in the flask app. Incorrect name after refactor PR#17
