@@ -44,6 +44,6 @@ if __name__ == "__main__":
         job_name.adjective_file(args.adjectives)
 
     if args.separator:
-        job_name.separator(args.separator)
+        job_name.set_separator(args.separator)
 
     print(job_name)
