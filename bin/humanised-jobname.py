@@ -35,7 +35,6 @@ if __name__ == "__main__":
         help="Specify a data source to use for adjectives",
     )
 
-
     args = parser.parse_args()
 
     job_name = HumanisedJobname(args.data_file)
