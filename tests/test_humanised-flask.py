@@ -4,7 +4,8 @@ import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
-import humanisedflask
+import humanisedflask  # noqa: E402
+
 
 @pytest.fixture
 def client():
@@ -20,6 +21,7 @@ def test_default_page(client):
     rv = client.get('/')
     assert "-" in str(rv.data)
 
+
 def test_metrics_page(client):
     """Test the /metrics page contains a default metric."""
 
@@ -33,6 +35,7 @@ def test_setting_separator(client):
 
     rv = client.get('/?separator=BBB')
     assert "BBB" in str(rv.data)
+
 
 def test_setting_files(client, shared_datadir):
     adjectives = (shared_datadir / "adjectives.yaml")
