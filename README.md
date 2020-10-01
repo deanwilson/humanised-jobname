@@ -2,6 +2,8 @@
 
 A python library and tools to create memorable, human friendly, job names.
 
+[![Actions Status](https://github.com/deanwilson/humanised-jobname/workflows/Python%20package/badge.svg)](https://github.com/deanwilson/humanised-jobname/actions)
+
 ## Introduction
 
 Which pair of identifiers are easier to remember?
