@@ -2,7 +2,7 @@ Flask==2.0.0
 appdirs==1.4.4
 attrs==21.2.0
 black==21.5b1
-click==7.1.2
+click==8.0.1
 flake8==3.9.2
 mccabe==0.6.1
 pathspec==0.8.1
