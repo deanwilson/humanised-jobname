@@ -1,4 +1,4 @@
-Flask==2.0.0
+Flask==2.0.1
 pathspec==0.8.1
 prometheus-flask-exporter==0.18.2
 PyYAML==5.4.1
