@@ -1,5 +1,5 @@
 Flask==2.0.2
 pathspec==0.9.0
-prometheus-flask-exporter==0.18.3
+prometheus-flask-exporter==0.18.4
 PyYAML==6.0
 yamllint==1.26.3
