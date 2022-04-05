@@ -1,4 +1,4 @@
-Flask==2.0.3
+Flask==2.1.1
 appdirs==1.4.4
 attrs==21.4.0
 black==22.1.0
